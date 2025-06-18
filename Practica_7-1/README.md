@@ -33,7 +33,7 @@ Esta práctica implementa el protocolo **I2S** en el **ESP32-S3** para reproduci
 - **Amplificador MAX98357 I2S**  
 - **Altavoz 4Ω/8Ω**  
 - **Cables dupont**  
-
+![Image](https://github.com/user-attachments/assets/79d3f55d-73b6-454c-b385-1157f8ae20bb)
 ---
 
 ## **5. Desarrollo**  
@@ -114,7 +114,8 @@ void loop() {
 - **Salida del monitor serie**:  
   ```plaintext
   Reproducción finalizada
-  ```  
+  ```
+  ![Image](https://github.com/user-attachments/assets/cf4a2037-f0e7-462c-a83c-9d38a0bfb164)
   (El mensaje aparece cuando termina el audio).  
 - **Salida de audio**:  
   - El archivo AAC almacenado en `sampleaac.h` se reproduce en el altavoz conectado al MAX98357.  
